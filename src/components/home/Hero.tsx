@@ -58,7 +58,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.div
-          className="hidden lg:flex justify-center"
+          className="flex justify-center"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
@@ -66,7 +66,7 @@ const Hero = () => {
           <img 
             src="/profile.jpg" 
             alt="Huzaifa Saqib" 
-            className="w-[600px] h-[450px] rounded-[6rem] object-contain pt-8 pb-2 pr-2 ml-24"
+            className="w-[300px] h-[250px] md:w-[450px] md:h-[350px] lg:w-[600px] lg:h-[450px] rounded-[3rem] md:rounded-[4rem] lg:rounded-[5rem] object-contain pt-4 md:pt-6 lg:pt-8 pb-2 pr-2 md:ml-12 lg:ml-24"
           />
         </motion.div>
       </div>
