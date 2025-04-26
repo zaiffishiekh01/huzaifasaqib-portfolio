@@ -63,14 +63,11 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <div className="relative">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-secondary rounded-full blur opacity-75"></div>
-            <div className="relative bg-background rounded-full overflow-hidden h-80 w-80 animate-float">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-6xl font-bold title-gradient">HS</span>
-              </div>
-            </div>
-          </div>
+          <img 
+            src="/profile.jpg" 
+            alt="Huzaifa Saqib" 
+            className="w-[600px] h-[450px] rounded-[6rem] object-contain pt-8 pb-2 pr-2 ml-24"
+          />
         </motion.div>
       </div>
     </section>
