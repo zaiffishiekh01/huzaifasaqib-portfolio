@@ -137,8 +137,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <a href="mailto:huzaifasaqib420@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                    huzaifasaqib420@gmail.com
+                  <a href="mailto:ogunleyefestus481@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    ogunleyefestus481@gmail.com
                   </a>
                 </div>
               </div>
@@ -149,42 +149,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Phone</h4>
-                  <a href="tel:+923059314103" className="text-muted-foreground hover:text-primary transition-colors">
-                    (+92) 305-9314103
-                  </a>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="mr-4 bg-primary/10 p-3 rounded-full">
-                  <Linkedin className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-medium">LinkedIn</h4>
-                  <a 
-                    href="https://www.linkedin.com/in/muhammad-huzaifa-saqib-90a1a9324/" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    muhammad-huzaifa-saqib
-                  </a>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="mr-4 bg-primary/10 p-3 rounded-full">
-                  <Github className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-medium">GitHub</h4>
-                  <a 
-                    href="https://github.com/zaiffishiekh01" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    zaiffishiekh01
+                  <a href="tel:+2349039277175" className="text-muted-foreground hover:text-primary transition-colors">
+                    (+234) 903-927-7175
                   </a>
                 </div>
               </div>

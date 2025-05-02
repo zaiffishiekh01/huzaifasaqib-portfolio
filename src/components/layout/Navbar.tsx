@@ -47,14 +47,7 @@ export const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <div className="relative h-10 w-10">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-secondary rounded-full blur opacity-75"></div>
-            <div className="relative bg-background rounded-full overflow-hidden h-10 w-10">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-xl font-bold title-gradient">HS</span>
-              </div>
-            </div>
-          </div>
+          {/* HS logo removed */}
         </Link>
 
         {/* Desktop Navigation */}
@@ -68,11 +61,7 @@ export const Navbar = () => {
               {item.name}
             </Link>
           ))}
-          <Link to="/resume" className="ml-2">
-            <Button variant="outline" className="gradient-border">
-              Resume
-            </Button>
-          </Link>
+          {/* Resume button removed */}
         </nav>
 
         {/* Mobile Menu Button */}
@@ -110,15 +99,7 @@ export const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <Link 
-              to="/resume" 
-              className="px-4 py-3"
-              onClick={() => setIsOpen(false)}
-            >
-              <Button variant="outline" className="w-full gradient-border">
-                Resume
-              </Button>
-            </Link>
+            {/* Resume button removed from mobile */}
           </nav>
         </motion.div>
       )}

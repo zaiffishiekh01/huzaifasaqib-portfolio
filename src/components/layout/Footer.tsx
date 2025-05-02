@@ -1,6 +1,5 @@
-
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -12,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <Link to="/" className="text-xl font-bold title-gradient">
-              Huzaifa Saqib
+              OGUNLEYE JOHN
             </Link>
             <p className="mt-4 text-muted-foreground">
               BS Computer Science student passionate about AI, machine learning, and full-stack development.
@@ -54,32 +53,14 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4 mb-4">
               <motion.a
-                href="https://github.com/zaiffishiekh01"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.1 }}
-                className="bg-muted-foreground/10 p-2 rounded-full hover:bg-primary/20 transition-colors"
-              >
-                <Github className="h-5 w-5" />
-              </motion.a>
-              <motion.a
-                href="https://www.linkedin.com/in/muhammad-huzaifa-saqib-90a1a9324/"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.1 }}
-                className="bg-muted-foreground/10 p-2 rounded-full hover:bg-primary/20 transition-colors"
-              >
-                <Linkedin className="h-5 w-5" />
-              </motion.a>
-              <motion.a
-                href="mailto:huzaifasaqib420@gmail.com"
+                href="mailto:ogunleyefestus481@gmail.com"
                 whileHover={{ scale: 1.1 }}
                 className="bg-muted-foreground/10 p-2 rounded-full hover:bg-primary/20 transition-colors"
               >
                 <Mail className="h-5 w-5" />
               </motion.a>
               <motion.a
-                href="tel:+923059314103"
+                href="tel:+2349039277175"
                 whileHover={{ scale: 1.1 }}
                 className="bg-muted-foreground/10 p-2 rounded-full hover:bg-primary/20 transition-colors"
               >
@@ -87,17 +68,17 @@ const Footer = () => {
               </motion.a>
             </div>
             <p className="text-muted-foreground">
-              Email: huzaifasaqib420@gmail.com
+              Email: ogunleyefestus481@gmail.com
             </p>
             <p className="text-muted-foreground">
-              Phone: +92 305 9314103
+              Phone: +234 903 927 7175
             </p>
           </div>
         </div>
 
         <div className="border-t border-border mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            &copy; {currentYear} Muhammad Huzaifa Saqib. All rights reserved.
+            &copy; {currentYear} OGUNLEYE JOHN. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm mt-2 md:mt-0">
             Built with React & Tailwind CSS
