@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -76,8 +77,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium mb-1">Email</h3>
-                    <a href="mailto:ogunleyefestus481@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      ogunleyefestus481@gmail.com
+                    <a href="mailto:huzaifasaqib420@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      huzaifasaqib420@gmail.com
                     </a>
                   </div>
                 </div>
@@ -88,10 +89,82 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium mb-1">Phone</h3>
-                    <a href="tel:+2349039277175" className="text-muted-foreground hover:text-primary transition-colors">
-                      (+234) 903-927-7175
+                    <a href="tel:+923059314103" className="text-muted-foreground hover:text-primary transition-colors">
+                      (+92) 305-9314103
                     </a>
                   </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="mr-4 bg-primary/10 p-3 rounded-full">
+                    <Linkedin className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium mb-1">LinkedIn</h3>
+                    <a 
+                      href="https://www.linkedin.com/in/muhammad-huzaifa-saqib-90a1a9324/" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      muhammad-huzaifa-saqib
+                    </a>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="mr-4 bg-primary/10 p-3 rounded-full">
+                    <Github className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium mb-1">GitHub</h3>
+                    <a 
+                      href="https://github.com/zaiffishiekh01" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      zaiffishiekh01
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-card p-6 rounded-lg gradient-border">
+                <h3 className="text-lg font-medium mb-4">Connect With Me</h3>
+                <div className="flex space-x-4">
+                  <motion.a
+                    href="https://github.com/zaiffishiekh01"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1 }}
+                    className="bg-muted p-3 rounded-full hover:bg-primary/20 transition-colors"
+                  >
+                    <Github className="h-5 w-5" />
+                  </motion.a>
+                  <motion.a
+                    href="https://www.linkedin.com/in/muhammad-huzaifa-saqib-90a1a9324/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1 }}
+                    className="bg-muted p-3 rounded-full hover:bg-primary/20 transition-colors"
+                  >
+                    <Linkedin className="h-5 w-5" />
+                  </motion.a>
+                  <motion.a
+                    href="mailto:huzaifasaqib420@gmail.com"
+                    whileHover={{ scale: 1.1 }}
+                    className="bg-muted p-3 rounded-full hover:bg-primary/20 transition-colors"
+                  >
+                    <Mail className="h-5 w-5" />
+                  </motion.a>
+                  <motion.a
+                    href="tel:+923059314103"
+                    whileHover={{ scale: 1.1 }}
+                    className="bg-muted p-3 rounded-full hover:bg-primary/20 transition-colors"
+                  >
+                    <Phone className="h-5 w-5" />
+                  </motion.a>
                 </div>
               </div>
             </motion.div>

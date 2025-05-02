@@ -15,7 +15,7 @@ const Hero = () => {
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             Hi, I'm{" "}
-            <span className="title-gradient">OGUNLEYE JOHN</span>
+            <span className="title-gradient">Muhammad Huzaifa Saqib</span>
           </h1>
           
           <div className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-6 h-12">
